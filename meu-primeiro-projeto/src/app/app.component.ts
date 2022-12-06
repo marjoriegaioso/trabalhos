@@ -1,4 +1,6 @@
+import { publishFacade } from '@angular/compiler';
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -8,3 +10,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'meu-primeiro-projeto';
 }
+/**
+ * name
+ */
+publicTitle = "Bem vindo"
